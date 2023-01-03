@@ -1,0 +1,1202 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	background-image: url(images/stripes-bg.png);
+}
+
+body {
+	padding   : 10px;
+	margin    : 0;
+	text-align: center;
+}
+
+
+.flexContainer {
+	display         : flex;
+	display         : -webkit-flex;
+	margin          : 0;
+	padding         : 0;
+	background-color: transparent;
+}
+
+
+header {
+	width                : 98%;
+	min-height           : 140px;
+	vertical-align       : middle;
+	margin               : 0;
+	padding              : 5px;
+	color                : white;
+	background-color     : #4c4c4c;
+	-moz-border-radius   : 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	-khtml-border-radius : 10px 10px 0 0;
+	/* for old Konqueror browsers */
+	border-radius        : 10px 10px 0 0;
+}
+
+#content {
+	font-family: Helvetica, Arial, DejaVu Sans;
+	font-size  : 16pt;
+
+	max-width            : 1000px;
+	text-align           : left;
+	margin               : 10px;
+	padding              : 20px;
+	-moz-border-radius   : 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius : 10px;
+	/* for old Konqueror browsers */
+	border-radius        : 10px;
+}
+
+#wrapper {
+	width                : 100%;
+	max-width            : 900px;
+	text-align           : left;
+	margin               : 20px auto;
+	padding              : 20px;
+	background-color     : #bbbbbb;
+	border               : 20px solid #777777;
+	-moz-border-radius   : 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius : 10px;
+	/* for old Konqueror browsers */
+	border-radius        : 10px;
+}
+
+#boxTitle {
+	display              : inline-block;
+	color                : white;
+	font-size            : 35pt;
+	vertical-align       : middle;
+	padding              : 10px 20px;
+	border-collapse      : separate;
+	margin               : 10px;
+	-moz-border-radius   : 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius : 10px;
+	/* for old Konqueror browsers */
+	border-radius        : 10px;
+
+}
+
+
+/* some new styles for ELA TB lessons.*/
+
+.ELA3columnPracticeTitleTabLeft {
+    width: 33%;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    background-color: #57aadd;
+    color: #ffffff;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 18pt;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.ELA3columnPracticeTitleTabMiddle {
+    width: 33%;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    color: #000000;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 18pt;
+    border: none;
+    border-radius: 0;
+    border-bottom: solid 10px #57aadd;
+}
+
+.ELA3columnPracticeTitleTabRight {
+    width: 33%;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    color: #000000;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 18pt;
+    border: none;
+    border-bottom: solid 10px #57aadd;
+}
+
+.ELA3columnPracticeLabelRow {
+    background-color: #e5f6fd;
+    text-align: center;    
+}
+
+.ELA3columnPracticeTextAreaRow {
+    text-align: center;
+    background-color: #e5f6fd;
+    height: 9em;
+}
+
+.ELA3columnPracticeTextArea {
+    width: 95%;
+    height: 12em;
+}
+
+.ELA3columnSolutionTitleTabLeft {
+    width: 33%;
+    padding: 10px 20px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #4c4c4c;
+    border-bottom: solid 10px #4c4c4c;
+    vertical-align: middle;
+    text-align: center;
+    color: #ffffff"
+}
+.ELA3columnSolutionTitleTabRight {
+    padding: 10px 20px;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: solid 10px #4c4c4c;
+    vertical-align: middle;
+    text-align: left;
+    color: #ffffff"
+}
+
+.ELA3columnSolutionLabelRowLeft {
+    width: 33%;
+    text-align: center;
+    color: white; 
+    border-left: solid 5px #4c4c4c; 
+    border-right: solid 5px #4c4c4c;
+    padding: 10px;
+}
+
+.ELA3columnSolutionLabelRowMiddle {
+    width: 33%;
+    text-align: center;
+    color: white; 
+    border-right: solid 5px #4c4c4c;
+    padding: 10px
+    
+}
+
+.ELA3columnSolutionLabelRowRight {
+    width: 33%;
+    text-align: center;
+    color: white; 
+    border-right: solid 5px #4c4c4c;
+    padding: 10px
+}
+
+.ELA3columnSolutionBodyLeft {
+    background-color: #4c4c4c;
+    text-align: left;
+    margin-bottom: 0;
+    padding: 10px;
+    border-right: solid 5px #777;
+    vertical-align: top;
+}
+
+.ELA3columnSolutionBodyMiddle {
+    background-color: #4c4c4c;
+    text-align: left;
+    margin-bottom: 0;
+    padding: 10px;
+    border-right: solid 5px #777;
+    vertical-align: top;
+}
+
+.ELA3columnSolutionBodyRight {
+    background-color: #4c4c4c;
+    text-align: left;
+    margin-bottom: 0;
+    padding: 10px;
+    vertical-align: top;
+}
+    
+
+.practiceBlueBoxWhiteTitleTabLeft {
+    width: auto;
+    padding: 10px 20px 10px 20px;
+    background-color: #57aadd;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 18pt;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.solutionGrayBoxWhiteTitleTabLeft {
+    width: 33%;
+    padding: 10px 20px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #4c4c4c;
+    border-bottom: solid 10px #f2f2f2;
+    vertical-align: middle;
+    text-align: center;
+    color: #ffffff"
+}
+
+.solutionGrayBoxWhiteTitleTabRight {
+    width: 66%;
+    padding: 10px 20px;
+    border-radius: 0px 5px 0px 0px;
+    border-bottom: solid 10px #f2f2f2;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.solutionBodyWhiteBorderWhiteText {
+    width: auto;
+    padding: 20px;
+    background-color: #777;
+    border-radius: 0px 0px 5px 5px;
+    border-left: solid 10px #f2f2f2;
+    border-right: solid 10px #f2f2f2;
+    border-bottom: solid 10px #f2f2f2;
+    vertical-align: top;
+}
+
+.checkWorkELAGrayBodyLeft {
+    width: 35%;
+    padding: 5px 20px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.checkWorkELAGrayBodyRight {
+    padding: 20px;
+    background-color: #f2f2f2;
+    vertical-align: middle;
+    text-align: center;
+}
+/* end of some new ELA TB lesson styles */
+
+
+
+/* click to reveal 3-column table */
+
+.ClickToReveal3ColumnA {
+	border-right: 1px solid;
+	width       : 150px;
+	text-align  : center;
+}
+
+.ClickToReveal3ColumnB {
+	display   : inline-block;
+	width     : 250px;
+	text-align: center;
+}
+
+.ClickToReveal3ColumnC {
+	display     : inline-block;
+	width       : 200px;
+	text-align  : left;
+	padding-left: 10px;
+}
+
+
+/* Tip and Hints Box with Orange Border */
+
+.boxOrange {
+	display  : inline-block;
+	margin   : auto;
+	font-size: 16pt;
+
+}
+
+.TipsHintsBoxOrangeBorder {
+	width        : 95%;
+	border       : 10px solid #FFB100;
+	border-radius: 50px;
+
+}
+
+.TipsHintsBoxWhiteFill {
+	width           : auto;
+	text-align      : left;
+	vertical-align  : middle;
+	padding         : 10px;
+	background-color: #ffffff;
+	border-radius   : 50px;
+
+}
+
+.TipsHintsBoxImage {
+	width         : auto;
+	text-align    : center;
+	vertical-align: middle;
+	padding       : 10px 20px;
+
+}
+
+.TipsHintsBoxText {
+	width         : auto;
+	text-align    : justify;
+	vertical-align: middle;
+	padding       : 10px 30px 10px 20px;
+
+}
+
+
+/* Caption for text under images */
+.caption {
+	font-size: 10pt;
+	text-align: center;
+}
+
+
+/* T-Chart table specs */
+
+
+.tChartTable {
+	display: inline-block; 
+	border: none; 
+	border-spacing: 0px;
+}
+
+/* T-ChartTitleLeft = contains border-right (used in 2 column T-Chart) */
+/* T-ChartTitleRight = contains border-left (used in 2 column T-Chart) */
+/* T-ChartTitleMiddle = contains border-left AND border-right (used in 3+ column T-Chart) */
+
+.tChartTitleLeft {
+	width: auto; 
+	padding: 0px 10px; 
+	border-right: 1px solid;
+	border-bottom: 2px solid; 
+	vertical-align: bottom; 
+	text-align: center; 
+}
+
+.tChartTitleRight {
+	width: auto; 
+	padding: 0px 10px; 
+	border-left: 1px solid;
+	border-bottom: 2px solid; 
+	vertical-align: bottom; 
+	text-align: center; 
+}
+
+.tChartTitleMiddle {
+	width: auto; 
+	padding: 0px 10px;
+	border-right: 1px solid;
+	border-left: 1px solid;
+	border-bottom: 2px solid; 
+	vertical-align: bottom; 
+	text-align: center; 
+}
+
+/* T-ChartDataLeft = contains border-right (used in 2 column T-Chart) */
+/* T-ChartDataRight = contains border-left (used in 2 column T-Chart) */
+/* T-ChartDataMiddle = contains border-left AND border-right (used in 3+ column T-Chart) */
+
+.tChartDataLeft {
+	width: auto; 
+	padding: 0px 10px; 
+	border-right: 1px solid;
+	vertical-align: middle; 
+	text-align: center; 
+}
+
+.tChartDataRight {
+	width: auto; 
+	padding: 0px 10px; 
+	border-left: 1px solid; 
+	vertical-align: middle; 
+	text-align: center; 
+}
+
+.tChartDataMiddle {
+	width: auto; 
+	padding: 0px 10px;
+	border-right: 1px solid;
+	border-left: 1px solid;
+	vertical-align: middle; 
+	text-align: center; 
+}
+
+
+
+/* Instructional Steps Box with Green Border and Green Line Spacing */
+
+.boxGreen {
+	width        : 100%;
+	border       : 5px solid #43c999;
+	border-radius: 15px 50px 30px;
+
+}
+
+.contentInstructionalSteps1TitleLeft {
+	width         : auto;
+	text-align    : left;
+	vertical-align: bottom;
+	padding       : 10px 20px;
+	border-bottom : 15px solid #43c999;
+	font-size     : 20pt;
+
+}
+
+.contentInstructionalSteps1TitleCenter {
+	width         : auto;
+	text-align    : center;
+	vertical-align: bottom;
+	padding       : 10px 20px;
+	border-bottom : 15px solid #43c999;
+	font-size     : 20pt;
+
+}
+
+.contentInstructionalSteps1Box {
+	width           : auto;
+	text-align      : left;
+	vertical-align  : middle;
+	padding         : 5px;
+	background-color: #f9f5f0;
+	border-radius   : 15px 50px 30px;
+
+}
+
+.contentInstructionalSteps1Text {
+	width         : auto;
+	padding       : 20px;
+	border-bottom : 2px solid #43c999;
+	vertical-align: top;
+
+}
+
+.contentInstructionalSteps1TextBold {
+	width         : auto;
+	padding       : 20px;
+	border-bottom : 2px solid #43c999;
+	vertical-align: top;
+	font-weight   : bold;
+
+}
+
+.contentInstructionalSteps1TextNoWrap {
+	width         : auto;
+	padding       : 20px;
+	border-bottom : 2px solid #43c999;
+	vertical-align: top;
+	white-space   : nowrap;
+
+}
+
+.contentInstructionalSteps1TextNoWrapBold {
+	width         : auto;
+	padding       : 20px;
+	border-bottom : 2px solid #43c999;
+	vertical-align: top;
+	white-space   : nowrap;
+	font-weight   : bold;
+
+}
+
+.contentInstructionalSteps1TextLastRow {
+	width         : auto;
+	padding       : 20px;
+	vertical-align: top;
+
+}
+
+.contentInstructionalSteps1TextLastRowBold {
+	width         : auto;
+	padding       : 20px;
+	vertical-align: top;
+	font-weight   : bold;
+
+}
+
+.contentInstructionalSteps1TextLastRowNoWrap {
+	width         : auto;
+	padding       : 20px;
+	vertical-align: top;
+	white-space   : nowrap;
+
+}
+
+.contentInstructionalSteps1TextLastRowNoWrapBold {
+	width         : auto;
+	padding       : 20px;
+	vertical-align: top;
+	white-space   : nowrap;
+	font-weight   : bold;
+
+}
+
+.contentInstructionalSteps2Box {
+	width           : auto;
+	text-align      : left;
+	vertical-align  : middle;
+	padding         : 5px;
+	background-color: #ffffff;
+	border-radius   : 15px 50px 30px;
+
+}
+
+
+/* Green Step Boxes - Used on individual words such as Step 1 */
+
+.instructionStepBoxGreen {
+	display         : inline-block;
+	padding         : 0px 20px;
+	background-color: #43c999;
+	border-radius   : 5px;
+	vertical-align  : middle;
+	text-align      : center;
+	font-size       : 18pt;
+	font-weight     : bold;
+	color           : #ffffff;
+}
+
+
+/* Steps and Explanation Table used in Click to Reveal */
+
+.contentStepsExplanationTitle {
+	width         : auto;
+	text-align    : left;
+	vertical-align: bottom;
+	padding       : 10px 20px;
+	border-bottom : 15px solid #4c4c4c;
+	font-size     : 20pt;
+	color         : #000000;
+
+}
+
+.contentStepsExplanationText {
+	width         : auto;
+	padding       : 20px;
+	border-bottom : 2px solid #4c4c4c;
+	vertical-align: top;
+	color         : #000000;
+
+}
+
+.contentStepsExplanationTextLastRow {
+	width         : auto;
+	padding       : 20px;
+	vertical-align: top;
+	color         : #000000;
+
+}
+
+
+
+/* Green Table - 2 column split style used for graphs and info */
+
+.contentInstructionalGreenBoxWhiteTitle {
+	width           : auto;
+	padding         : 10px 20px;
+	border-radius   : 5px 5px 0px 5px;
+	background-color: #43c999;
+	vertical-align  : middle;
+	text-align      : center;
+	font-size       : 18pt;
+	color           : #ffffff;
+}
+
+.contentInstructionalGreenLineBlackTitle {
+	width         : auto;
+	padding       : 10px 20px;
+	border-bottom : 10px solid #43c999;
+	vertical-align: middle;
+	text-align    : center;
+	font-size     : 18pt;
+}
+
+
+
+/* Zebra Stripe Table */
+
+.tdStripe {
+	text-align: left;
+	padding   : 16px;
+}
+
+.trStripeOdd:nth-child(odd) {
+	background-color: #EEEEEE;
+}
+
+.trStripeEven:nth-child(even) {
+	background-color: #f9f9f9;
+}
+
+
+/* Practice Table Stripe - Blue vertical divider lines*/
+
+.PracticeTableGray {
+	padding: 5px 20px;
+	border-right: 2px solid #57aadd;
+	background-color: #F7F7F7;
+	vertical-align: middle;
+	
+}
+
+/* Practice Table Stripe - Dark gray vertical divider lines*/
+
+.PracticeTableGrayClickToReveal {
+	padding: 5px 20px;
+	border-right: 2px solid #777777;
+	background-color: #F7F7F7;
+	vertical-align: middle;
+	
+}
+
+
+/* Box: Gray Fill with Black Border*/
+
+.boxGrayBlackBorder {
+	width        : auto;
+	border       : 5px solid #000000;
+	border-radius: 5px;
+	background-color: #F7F7F7;
+	color: #000000;
+	padding: 20px;
+	text-align: left;
+
+}
+
+
+
+/* Table with Black Border and Gray Horizontal Section Lines: used in Click to Reveal Sample Answers*/
+
+.tableBlackBorderGraySectionLines {
+	width           : 100%;
+	text-align      : left;
+	vertical-align  : top;
+	padding         : 20px;
+	border-bottom: 2px solid #F7F7F7;
+
+}
+
+
+/* Gray Step Boxes - found in Click to Reveal Sample Answers - Used on individual words such as Step 1 */
+
+.instructionStepBoxGray {
+	display         : inline-block;
+	padding         : 0px 20px;
+	background-color: #F7F7F7;
+	border-radius   : 5px;
+	vertical-align  : middle;
+	text-align      : center;
+	font-size       : 18pt;
+	font-weight     : bold;
+	color           : #777777;
+	white-space: nowrap;
+}
+
+
+/* Click to Reveal Table Headers used in Practice problems - Light background, Dark text*/
+
+.ClickToRevealPracticeTableWhiteBoxGrayTitle {
+	width           : auto;
+	padding         : 10px 20px;
+	border     	    : 1px solid #777777;
+	background-color: #F7F7F7;
+	vertical-align  : middle;
+	text-align      : center;
+	font-size       : 18pt;
+	color           : #777777;
+}
+
+
+/* Click to Reveal Table Headers used in Practice problems  - Dark background, Light text*/
+
+.ClickToRevealPracticeTableGrayBoxWhiteTitle {
+	width           : auto;
+	padding         : 10px 20px;
+	border     	    : 1px solid #000000;
+	background-color: #777777;
+	vertical-align  : middle;
+	text-align      : center;
+	font-size       : 18pt;
+	color           : #F7F7F7;
+}
+
+
+
+
+.center {
+	text-align: center;
+}
+
+.smallcaps {
+	font-variant: small-caps;
+}
+
+.times {
+	font-variant: small-caps;
+}
+
+h1 {
+	font-size  : 30pt;
+	margin     : 5px 0;
+	font-weight: 800;
+}
+
+h2 {
+	font-size  : 24pt;
+	margin     : 5px 0;
+	font-weight: bold;
+	font-style : italic;
+	color      : white;
+	text-align : center;
+}
+
+h3 {
+	font-size      : 18pt;
+	margin         : 5px 0;
+	font-weight    : bold;
+	text-decoration: underline;
+}
+
+h4 {
+	font-size  : 12pt;
+	margin     : 5px 0;
+	font-weight: bold;
+}
+
+#courseImage {
+	margin : 10px 5px 20px 10px;
+	display: inline-block;
+
+	border-radius : 5px;
+	vertical-align: top;
+	position      : absolute;
+
+}
+
+#courseName {
+	margin     : 0 0 0 150px;
+	padding    : 10px;
+	font-size  : 35pt;
+	font-weight: 800;
+}
+
+
+/* Practice Area - General Layout */
+
+#practiceTitle {
+	text-align      : left;
+	vertical-align  : middle;
+	padding         : 5px 20px;
+	background-color: #1e3d4c;
+	border-bottom   : 4px solid #cce5f4;
+	border-radius   : 20px;
+	visibility      : visible;
+	font-size       : 25pt;
+	font-weight     : 800;
+	color           : #ffffff;
+	display         : inline-block;
+}
+
+#practiceProblem {
+	width           : auto;
+	color           : black;
+	font-size       : 16pt;
+	background-color: white;
+	border          : 15px solid #57aadd;
+	border-radius   : 15px 50px 30px;
+	padding         : 20px;
+}
+
+
+/* Blue Step Boxes - Used on individual words such as Step 1 */
+
+.practiceStepBox {
+	display         : inline-block;
+	padding         : 0px 20px;
+	background-color: #57aadd;
+	border-radius   : 5px;
+	vertical-align  : middle;
+	text-align      : center;
+	font-size       : 18pt;
+	font-weight     : bold;
+	color           : #ffffff;
+}
+
+
+/* Practice Table Style with Click to Reveal */
+
+.practiceBlueBoxWhiteTitle {
+	width           : auto;
+	padding         : 10px 20px;
+	border     	    : 1px solid #ffffff;
+	background-color: #57aadd;
+	vertical-align  : middle;
+	text-align      : center;
+	font-size       : 18pt;
+	color           : #ffffff;
+}
+
+.practiceBlueLineBlackTitle {
+	width         : auto;
+	padding       : 10px 20px;
+	border-bottom : 10px solid #57aadd;
+	vertical-align: middle;
+	text-align    : center;
+	font-size     : 18pt;
+}
+
+.practiceBlueBoxCheckWorkBlack {
+	width         : auto;
+	padding       : 0px 20px;
+	border-top    : 5px solid #57aadd;
+	border-bottom : 5px solid #57aadd;
+	vertical-align: middle;
+	text-align    : center;
+	font-size     : 18pt;
+}
+
+
+/* Practice Table Style with Scenario Text */
+
+.practiceScenarioTitle {
+	width           : auto;
+	padding         : 5px 20px;
+	background-color: #57aadd;
+	vertical-align  : middle;
+	text-align      : left;
+	color           : #ffffff;
+	font-size       : 18pt;
+	font-weight     : bold;
+}
+
+.practiceScenarioExample {
+	width           : auto;
+	padding         : 10px 20px;
+	border-radius   : 5px;
+	background-color: #eef6fb;
+	vertical-align  : top
+}
+
+.practiceScenarioText {
+	width           : auto;
+	padding         : 5px 20px;
+	background-color: #57aadd;
+	vertical-align  : middle;
+	text-align      : center;
+	color           : #ffffff
+}
+
+.practiceScenarioCheckWork {
+	width           : auto;
+	padding         : 5px 20px;
+	background-color: #57aadd;
+	vertical-align  : middle;
+	text-align      : center;
+	color           : #ffffff
+}
+
+
+
+/* Vocab and Terms Table Style (Purple) */
+
+.vocabPurpleFillWhiteText {
+	width           : auto;
+	padding         : 10px 20px;
+	border     	    : 1px solid #ffffff;
+	background-color: #6850A1;
+	vertical-align  : middle;
+	text-align      : center;
+	font-size       : 18pt;
+	color           : #ffffff;
+}
+
+
+/* Text Area Input outside of tables */
+
+.textarea {
+	width           : 100%;
+	height          : 10em;
+	margin          : auto;
+	border-radius   : 5px;
+	background-color: #f2f1f0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 12pt;
+}
+
+
+/* Text Area Input - Single Line : can be used inside or outside of tables */
+
+.textareaSingleLine {
+	width           : 80%;
+	text-align: center;
+	margin          : auto;
+	border: none;
+	border-radius   : 5px;
+	background-color: #f2f1f0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 12pt;
+}
+
+/* Text Area Input in tables */
+
+.textareaPracticeTable {
+	width        : 100%;
+	height       : 10em;
+	margin       : auto;
+	border-radius: 5px;
+}
+
+.textareaPracticeTableBackgroundBlue {
+	width           : 100%;
+	padding         : 20px;
+	vertical-align  : top;
+	background-color: #cce5f4
+}
+
+
+
+/* Sample Answer Button */
+
+.revealButton {
+	margin       : 5px auto;
+	display      : block;
+	border-radius: 5px;
+	color        : white;
+
+	background-color: #777;
+	transition      : 0.5s ease;
+	border          : none;
+	padding         : 5px;
+}
+
+.revealButton:hover {
+	background-color: #ea7201;
+}
+
+
+
+/* Sample Answer Text */
+
+.sampleAnswerBox {
+	width           : auto;
+	background-color: #d6d6d6;
+	border-radius   : 5px;
+	padding         : 10px;
+
+}
+
+.sampleAnswerText {
+	margin          : 10px;
+	color           : white;
+	font-size       : 16pt;
+	background-color: #777;
+	border-radius   : 5px;
+	padding         : 10px;
+}
+
+
+
+
+/* Objectives Styles */
+
+.objectivesBox {
+	width           : 95%;
+	background-color: #43c999;
+	padding         : 15px;
+	border-radius   : 25px;
+}
+
+.objectivesText {
+	color    : white;
+	font-size: 16pt;
+}
+
+.objectivesTitle {
+	color      : white;
+	font-size  : 26pt;
+	text-align : center;
+	font-weight: bold;
+	font-style : italic;
+
+}
+
+.objectivesBoxGreenBorder {
+	width        : 100%;
+	border       : 5px solid #43c999;
+	border-radius: 25px;
+}
+
+.objectivesBoxGreenFill {
+	background-color: #43c999;
+	border-radius   : 0px 0px 25px 25px;
+}
+
+.objectivesBoxGreenBorderWhiteFill {
+	width           : 100%;
+	border          : 5px solid #43c999;
+	border-radius   : 25px;
+	background-color: #ffffff;
+}
+
+.objectivesBoxWhiteFill {
+	background-color: #ffffff;
+}
+
+.objectivesTextBlack {
+	color    : #000000;
+	font-size: 16pt;
+	padding  : 10px;
+}
+
+
+
+
+
+/* MathType Style */
+
+.mathtypeEquations {
+	font-size: 18pt;
+}
+
+
+
+
+/* Jump To button */
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+	position: fixed;
+	top     : 0px;
+	left    : 0px;
+	display : inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display         : none;
+	position        : absolute;
+	background-color: #f1f1f1;
+	white-space     : nowrap;
+	min-width       : 160px;
+	box-shadow      : 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index         : 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color          : black;
+	padding        : 12px 16px;
+	text-decoration: none;
+	display        : block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	background-color: #4b545f;
+	color           : #ffffff
+}
+
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+	background-color: #4c4c4c;
+	color           : #ffffff;
+	cursor          : pointer;
+	padding         : 18px;
+	width           : 100%;
+	text-align      : left;
+	border          : none;
+	outline         : none;
+	font-size       : 18pt;
+	transition      : 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+	background-color: #43c999;
+}
+
+.accordion:after {
+	content    : '\02795';
+	/* Unicode character for "plus" sign (+) */
+	font-size  : 13px;
+	color      : #ffffff;
+	float      : right;
+	margin-left: 5px;
+}
+
+.active:after {
+	content: "\2796";
+	/* Unicode character for "minus" sign (-) */
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+	padding         : 0 18px;
+	background-color: #ffffff;
+	max-height      : 0;
+	overflow        : hidden;
+	transition      : max-height 0.2s ease-out;
+}
+
+
+
+
+#copyright {
+	color                : #bbbbbb;
+	text-align           : center;
+	width                : 100%;
+	margin               : 10px 0 0 0;
+	padding              : 0;
+	background-color     : #4c4c4c;
+	-moz-border-radius   : 0 0 10px 10px;
+	-webkit-border-radius: 0 0 10px 10px;
+	-khtml-border-radius : 0 0 10px 10px;
+	/* for old Konqueror browsers */
+	border-radius        : 0 0 10px 10px;
+}
+
+#copyright p {
+	margin: 5px;
+}
+
+
+
+
+header.Edison {
+	background-color  : #FFF;
+	min-height        : 100px;
+	box-shadow        : inset 0px 0px 0px 6px #989991;
+	-webkit-box-shadow: inset 0px 0px 0px 6px #989991;
+	-moz-box-shadow   : inset 0px 0px 0px 6px #989991;
+	-o-box-shadow     : inset 0px 0px 0px 6px #989991;
+}
+
+header.Edison h1 {
+	color  : #989991;
+	margin : 0 auto;
+	padding: 25px;
+}
+
+header.Edison #logo {
+	padding: 20px;
+	float  : right;
+}
+
+h2.subjectName {
+	color           : #989991;
+	display         : block;
+	width           : 100%;
+	text-align      : center;
+	background-color: #FFF;
+	margin          : 0 auto;
+	padding         : 10px 0;
+}
+
+
